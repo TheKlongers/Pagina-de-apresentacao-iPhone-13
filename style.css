@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #303030;
+    height: 40px;
+    text-align: center;
+    
+}
+
+.barra_tarefas {
+    font-size: 12px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-family: verdana;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.COMPRAR {
+    background-color:#0071e3;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.Saiba_mais {
+    color: #0071e3;
+}
+
+div {
+    font-family: verdana;
+    text-align: center;
+}
+
+.segunda {
+    background-color: black;
+    height: 200px;
+    padding: 50px;
+}
+
+.brilho_info{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#camera {
+    height: 300px;
+}
+
+.camera {
+    height: 350px;
+}
+
+h2 {
+padding-top: 50px;
+font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+    color: black;   
+}
+
+.aponte {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+ul {
+    padding-top: 5px;
+    padding-bottom: 40px;
+    width: 20% !important;
+    margin: auto;
+}
+
+P {
+    margin: 15px auto 30px auto;
+}
+
+img {
+    margin: auto;
+    width: 100%;
+}
+
+#modelos {
+    background-color: black;
+    height: 780px;
+}
+
+.img_modelos {
+    height: 556px;
+    width: 470px;
+}
+
+.table {
+    width: 20% !important;
+    margin: auto;
+    color: #ffffff;
+    
+}
+
+table {
+    padding-bottom: 30px;
+}
+
+video {
+    margin: auto;
+    width: 100%;
+    line-height: 10px;
+    height: 700px
+}
+
+label {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}
