@@ -124,3 +124,116 @@ label {
 footer {
     text-align: center;
 }
+
+/* Media Queries for Responsiveness */
+        @media screen and (max-width: 768px) {
+            /* Mobile and Small Tablet */
+            header {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .barra_tarefas {
+                display: block;
+                margin: 5px;
+            }
+
+            .video video {
+                height: auto;
+            }
+
+            .segunda {
+                height: auto;
+                padding: 20px;
+            }
+
+            .brilho_info {
+                font-size: 14px;
+            }
+
+            #camera {
+                height: auto;
+            }
+
+            .camera {
+                height: auto;
+            }
+
+            .camera img {
+                width: 100%;
+            }
+
+            ul {
+                width: 100% !important;
+            }
+
+            #modelos {
+                height: auto;
+            }
+
+            .img_modelos {
+                height: auto;
+                width: 100%;
+            }
+
+            .table {
+                width: 100% !important;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            /* Tablet */
+            header {
+                display: flex;
+                justify-content: center;
+            }
+
+            .barra_tarefas {
+                display: block;
+                margin: 5px;
+            }
+
+            .video video {
+                height: auto;
+            }
+
+            .segunda {
+                height: auto;
+                padding: 30px;
+            }
+
+            .brilho_info {
+                font-size: 16px;
+            }
+
+            #camera {
+                height: auto;
+            }
+
+            .camera {
+                height: auto;
+            }
+
+            .camera img {
+                width: 100%;
+            }
+
+            ul {
+                width: 50% !important;
+            }
+
+            #modelos {
+                height: auto;
+            }
+
+            .img_modelos {
+                height: auto;
+                width: 100%;
+            }
+
+            .table {
+                width: 50% !important;
+            }
+        }
+    
